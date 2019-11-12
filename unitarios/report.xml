@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="20" skipped="0" failures="1" errors="0" time="0.048927" timestamp="2019-10-21T17:06:06-03:00" hostname="SPO507212">
+<properties>
+<property name="seed" value="2412"/>
+</properties>
+<testcase classname="spec.avengers_spec" name="AvengerdHeadQuarter deve adicionar um vingador" file="./spec/avengers_spec.rb" time="0.002556"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengerdHeadQuarter deve adicionar uma lista de vingadores" file="./spec/avengers_spec.rb" time="0.006190"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengerdHeadQuarter thor deve ser o primeiro da lista" file="./spec/avengers_spec.rb" time="0.002907"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengerdHeadQuarter Ironman deve ser o ultimo da lista" file="./spec/avengers_spec.rb" time="0.000085"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengerdHeadQuarter deve conter o sobrenome" file="./spec/avengers_spec.rb" time="0.002860"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o valor é positivo entao atualiza saldo" file="./spec/bank/saque_cc_spec.rb" time="0.000069"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é zero entao exibe mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000763"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é zero e o saldo final com zeros" file="./spec/bank/saque_cc_spec.rb" time="0.000049"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é insuficiente entao exibe mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000048"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é insuficiente e o saldo permanece" file="./spec/bank/saque_cc_spec.rb" time="0.000044"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando supera o limite de saque entao exibe mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000066"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando supera o limite de saque e o saldo permanece" file="./spec/bank/saque_cc_spec.rb" time="0.000046"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o valor é positivo entao atualiza saldo" file="./spec/bank/saque_cp_spec.rb" time="0.025022"><failure message="
+expected: 798.0
+     got: 798.01
+
+(compared using eql?)
+" type="RSpec::Expectations::ExpectationNotMetError">Failure/Error: expect(@cp.saldo).to eql 798.00
+
+  expected: 798.0
+       got: 798.01
+
+  (compared using eql?)
+./spec/bank/saque_cp_spec.rb:11:in `block (4 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é zero entao exibe mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000086"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é zero e o saldo final com zeros" file="./spec/bank/saque_cp_spec.rb" time="0.000047"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é insuficiente entao exibe mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000084"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é insuficiente e o saldo permanece" file="./spec/bank/saque_cp_spec.rb" time="0.000062"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando supera o limite de saque entao exibe mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000054"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando supera o limite de saque e o saldo permanece" file="./spec/bank/saque_cp_spec.rb" time="0.000056"></testcase>
+<testcase classname="spec.exemplos_spec" name="suite rspec soma de valores" file="./spec/exemplos_spec.rb" time="0.000043"></testcase>
+</testsuite>
